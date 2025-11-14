@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'iransharp';
+    src:url('../assets/fonts/iransharp_regular_web.woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'iransharp';
+    src:url('../assets/fonts/iransharp_bold_web.woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'iransharp';
+}

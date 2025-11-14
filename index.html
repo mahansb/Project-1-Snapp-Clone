@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>سوپر اپلیکیشن اسنپ | سامانه هوشمند حمل‌ونقل | تاکسی اینترنتی</title>
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+<!--header-->
+<header class="header">
+    <!--logo and ham menu-->
+    <div class="container header__container">
+        <a href="#" class="header__logo">
+            <img src="https://web-cdn.snapp.ir/snapp-website/icons/snappTextLogo.svg" alt="snapp-logo" width="90"
+                 height="32">
+        </a>
+
+        <button class="header__hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <!--nav bar-->
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__menu-item">
+                    <div class="menu-item__top">
+                        <a href="#">سوپراپ اسنپ</a>
+                        <button class="submenu-toggle" aria-label="toggle submenu">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                 stroke-width="1.5" stroke="currentColor" class="submenu-chevron">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                      d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </button>
+                    </div>
+                    <ul class="submenu">
+                        <li><a href="#">درخواست تاکسی</a></li>
+                        <li><a href="#">پیک موتوری</a></li>
+                        <li><a href="#">سفارش آنلاین غذا</a></li>
+                        <li><a href="#">سوپرمارکت آنلاین اسنپ</a></li>
+                        <li><a href="#">رزرو بلیط هواپیما</a></li>
+                        <li><a href="#">رزرو هتل</a></li>
+                        <li><a href="#">رزرو بلیط قطار</a></li>
+                        <li><a href="#">رزرو بلیط اتوبوس</a></li>
+                        <li><a href="#">درخواست وانت بار</a></li>
+                        <li><a href="#">اسنپ‌پی</a></li>
+                        <li><a href="#">خدمات اسباب‌کشی</a></li>
+                        <li><a href="#">فروشگاه اسنپ</a></li>
+                        <li><a href="#">اسنپ بیمه</a></li>
+                        <li><a href="#">پزشک و مشاور</a></li>
+                        <li><a href="#">اسنپ پرو</a></li>
+                        <li><a href="#">سرمایه‌گذاری</a></li>
+                        <li><a href="#">خرید شارژ و اینترنت</a></li>
+                    </ul>
+                </li>
+                <li class="header__menu-item"><a href="#">ثبت نام راننده اسنپ</a></li>
+                <li class="header__menu-item"><a href="#">باشگاه رانندگان</a></li>
+                <li class="header__menu-item"><a href="#"> پنل سازمانی</a></li>
+                <li class="header__menu-item"><a href="#">بلاگ</a></li>
+                <li class="header__menu-item">
+                    <div class="menu-item__top">
+                        <a href="#">درباره اسنپ</a>
+                        <button class="submenu-toggle" aria-label="toggle submenu">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                 stroke-width="1.5" stroke="currentColor" class="submenu-chevron">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                      d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </button>
+                    </div>
+                    <ul class="submenu">
+                        <li><a href="#">فرصت های شغلی</a></li>
+                        <li><a href="#">درباره ما</a></li>
+                        <li><a href="#">تماس با ما</a></li>
+                    </ul>
+                </li>
+
+                <li class="header__menu-item">
+                    <div class="menu-item__top">
+                        <a href="#">اپلیکیشن اسنپ</a>
+                        <button class="submenu-toggle" aria-label="toggle submenu">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                 stroke-width="1.5" stroke="currentColor" class="submenu-chevron">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                      d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </button>
+                    </div>
+                    <ul class="submenu">
+                        <li><a href="#">دانلود مستقیم</a></li>
+                        <li><a href="#"></a>دانلود از کافه بازار</li>
+                        <li><a href="#"></a>دانلود از مایکت</li>
+                        <li><a href="#"></a>وب اپلیکیشن اسنپ (ios)</li>
+                        <li><a href="#">دانلود از اپ استور</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!--hero section-->
+<section class="hero">
+    <div class="hero__container">
+        <div class="hero__content">
+            <div class="hero__inner">
+                <h1 class="hero__title">
+                    تجربه‌ی زندگی راحت‌تر، سریع‌تر و به‌صرفه‌تر با سوپراپلیکیشن اسنپ!
+                </h1>
+                <p class="hero__subtitle">
+                    از درخواست خودرو گرفته تا سفارش غذا، خرید سوپرمارکتی، خرید بلیط سفر، رزرو هتل و... را میتوانید با اسنپ انجام دهید.
+                </p>
+
+                <div class="hero__download">
+                    <div class="hero__phone">
+                        <input
+                                type="tel"
+                                placeholder="09xxxxx6789"
+                                oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+                                class="hero__phone-input"
+                        />
+                        <button class="hero__phone-btn">ارسال لینک</button>
+                    </div>
+
+                    <button class="hero__download-btn hero__download-btn--mobile">
+                        دانلود اپلیکیشن اسنپ
+                    </button>
+
+                    <button class="hero__download-btn hero__download-btn--desktop">
+                        ورود به وب اپلیکیشن اسنپ
+                    </button>
+                </div>
+            </div>
+
+            <div class="hero__image">
+                <img
+                        src="https://web-cdn.snapp.ir/snapp-website/images/homepage/intro_desktop.jpg"
+                        alt="hero image"
+                >
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--markets-->
+<div class="markets">
+    <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/markets/direct-download-badge.png" alt="google_play">
+    <img src="https://web-cdn.snapp.ir/snappir-marketing/app/myketmarket.png" alt="myket">
+    <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/markets/app_store.svg" alt="app_store">
+    <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/markets/snapp-pwa.png" alt="pwa">
+    <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/markets/bazaar.png" alt="cafe_bazaar">
+</div>
+
+<!--text-->
+<section class="text">یک اپلیکیشن، برای تمام نیازها</section>
+
+<!--grid service-->
+<section class="services">
+    <div class="services__grid container">
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/ventures/taxi.svg" alt="Snapp! Taxi">
+            <div class="service-text">
+                <p class="title">تاکسی اینترنتی</p>
+                <p class="subtitle">درخواست آنلاین خودرو</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/ventures/food.svg" alt="Snapp! Food">
+            <div class="service-text">
+                <p class="title">سفارش آنلاین غذا</p>
+                <p class="subtitle">سفارش غذا، نان و شیرینی با اسنپ</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://jek.snapp.ir/icons/market/Market-Orange-Final.png" alt="Snapp! Market">
+            <div class="service-text">
+                <p class="title">سوپر مارکت آنلاین </p>
+                <p class="subtitle">تهیه اقلام روزانه با اسنپ</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/ventures/bike.svg" alt="Snapp! Bike">
+            <div class="service-text">
+                <p class="title">پیک موتوری</p>
+                <p class="subtitle">حمل و نقل انواع بسته</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/ventures/pickup.svg" alt="Snapp! Pickup">
+            <div class="venture-text">
+                <p class="title">درخواست وانت</p>
+                <p class="subtitle">حمل و نقل انواع بار</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/ventures/Credit.svg" alt="Snapp! Credit">
+            <div class="service-text">
+                <p class="title">سرویس اعتباری</p>
+                <p class="subtitle">خرید قسطی با اسنپ</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/app/fdom-t.png" alt="Snapp! Doctor">
+            <div class="service-text">
+                <p class="title">خرید بلیط هواپیما</p>
+                <p class="subtitle">خرید بلیط پرواز داخلی</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/ventures/intflight.svg" alt="Snapp! Flight">
+            <div class="service-text">
+                <p class="title"> بلیط هواپیما خارجی</p>
+                <p class="subtitle">خرید بلیط پرواز خارجی</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/ventures/hotel.svg" alt="Snapp! Hotel">
+            <div class="service-text">
+                <p class="title">رزرو هتل</p>
+                <p class="subtitle">رزرو آنلاین هتل</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/ventures/bus.svg" alt="Snapp! Bus">
+            <div class="service-text">
+                <p class="title">بلیط اتوبوس</p>
+                <p class="subtitle">گردشگری با اسنپ</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/ventures/train.svg" alt="Snapp! Train">
+            <div class="service-text">
+                <p class="title">بلیط قطار</p>
+                <p class="subtitle">گردشگری با اسنپ</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/ventures/shop.svg" alt="Snapp! Shop">
+            <div class="service-text">
+                <p class="title">فروشگاه اسنپ</p>
+                <p class="subtitle">فروشگاه اینترنتی اسنپ</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/ventures/doctor.svg" alt="Snapp! Doctor">
+            <div class="service-text">
+                <p class="title">پزشک و مشاور</p>
+                <p class="subtitle">درمان با اسنپ</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/ventures/pharmacy.svg" alt="Snapp! Pharmacy">
+            <div class="service-text">
+                <p class="title">داروخانه</p>
+                <p class="subtitle">داروخانه آنلاین اسنپ</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://jek.snapp.ir/Redesign-Icons/Insurance.png" alt="Snapp! Insurance">
+            <div class="service-text">
+                <p class="title">بیمه</p>
+                <p class="subtitle">خرید آنلاین بیمه با اسنپ</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/ventures/moving.svg" alt="Snapp! Moving">
+            <div class="service-text">
+                <p class="title">اسباب کشی منزل</p>
+                <p class="subtitle">خدمات اسباب کشی</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/ventures/driver.svg" alt="Snapp! Driver">
+            <div class="service-text">
+                <p class="title">ثبت نام راننده</p>
+                <p class="subtitle">ثبت نام تاکسی اینترنتی اسنپ</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/ventures/club.svg" alt="Snapp! Club">
+            <div class="service-text">
+                <p class="title">اسنپ! کلاب</p>
+                <p class="subtitle">باشگاه مشتریان اسنپ!</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/pay/Intro-news/Investemnt-New%20Color.png"
+                 alt="Snapp! Investment">
+            <div class="service-text">
+                <p class="title">سرمایه گذاری</p>
+                <p class="subtitle">سرمایه گذاری پرسود و کم ریسک با اسنپ</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/homepage/wallet.png" alt="Snapp! Wallet">
+            <div class="service-text">
+                <p class="title">خرید شارژ</p>
+                <p class="subtitle">خرید آنلاین شارژ</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/homepage/wallet.png" alt="Snapp! Wallet">
+            <div class="service-text">
+                <p class="title">خرید بسته اینترنت</p>
+                <p class="subtitle">خرید بسته اینترنت</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/homepage/Pro.png" alt="Snapp! Pro">
+            <div class="service-text">
+                <p class="title">اسنپ پرو</p>
+                <p class="subtitle">اشتراک حرفه ای اسنپ</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://web-cdn.snapp.ir/snappir-marketing/images/food/foodroicon.svg" alt="FoodRo">
+            <div class="service-text">
+                <p class="title">فودرو</p>
+                <p class="subtitle">بدون تخفیف رستوران نرو</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--banner-->
+<section class="banner">
+    <img
+            src="https://web-cdn.snapp.ir/snappir-marketing/images/taxidiscountclub.webp"
+            alt="تخفیف باشگاه تاکسی اسنپ"
+            loading="lazy"
+    />
+</section>
+
+<!--feature section-->
+<section class="feature-section">
+
+    <div class="feature_section_container">
+
+        <div class="feature-section__image">
+            <img
+                    src="https://web-cdn.snapp.ir/snapp-website/images/homepage/super-app.jpg"
+                    alt="سوپر اپ اسنپ"
+                    loading="lazy"
+            />
+        </div>
+
+        <div class="feature-section__content">
+            <h2>سوپر اپ اسنپ؛ پاسخی به تمام نیازها</h2>
+            <p>
+                اسنپ، اولین تاکسی اینترنتی ایران، بعد از پنج سال فعالیت در حوزه‌ی تردد شهری،
+                به یک سوپر‌اپ با خدمات متنوع تبدیل شد. سوپراپ اسنپ راه‌حلی جدید و ساده است
+                که با استفاده از آن تنها با یک اپلیکیشن می‌توانید علاوه بر درخواست خودرو، موتور و وانت
+                از خدمات متعددی از جمله سفارش غذا، پزشک و مشاور آنلاین، خرید از سوپرمارکت‌ها و فروشگاه‌ها،
+                اسباب‌کشی، خرید بلیط (هواپیما، اتوبوس، قطار)، رزرو هتل، پرداخت قبض و خرید شارژ استفاده کنید.
+            </p>
+        </div>
+    </div>
+
+    <div class="card_flex">
+
+        <!-- item 1-->
+
+        <div class="feature-card-item">
+            <div class="feature-card-item__image-wrapper">
+                <img
+                        src="https://web-cdn.snapp.ir/snapp-website/images/homepage/210x190-easy.png"
+                        alt="آسان"
+                        loading="lazy"
+                />
+            </div>
+            <h3>آسان</h3>
+            <p>
+                برای استفاده از هر کدام از خدمات سوپر‌اپ اسنپ کافی است وارد اپلیکیشن اسنپ شوید و روی آیکون مورد نظر بزنید.
+            </p>
+        </div>
+
+        <!-- item 2-->
+
+        <div class="feature-card-item">
+            <div class="feature-card-item__image-wrapper">
+                <img
+                        src="https://web-cdn.snapp.ir/snapp-website/images/homepage/210x190-fast.png"
+                        alt="سریع"
+                        loading="lazy"
+                />
+            </div>
+            <h3>سریع</h3>
+            <p>
+                قرار گرفتن خدمات مختلف در یک پلت‌فرم به صرفه‌جویی در زمان کمک می‌کند. سوپراپ اسنپ پاسخی سریع به نیازهای
+                رومزه‌ی شماست.
+            </p>
+        </div>
+
+        <!-- item 3-->
+
+        <div class="feature-card-item">
+            <div class="feature-card-item__image-wrapper">
+                <img
+                        src="https://web-cdn.snapp.ir/snapp-website/images/homepage/210x190-eco.png"
+                        alt="به صرفه"
+                        loading="lazy"
+                />
+            </div>
+            <h3>به صرفه</h3>
+            <p>
+                سوپراپ اسنپ علاوه بر زمان در هزینه‌های شما نیز صرفه‌جویی می‌کند تا بهترین خدمات را با قیمتی منطقی دریافت
+                کنید.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!--work features-->
+<section class="work-features-section">
+    <div>
+        <p class="work-feature__text-title">در کمتر از ۱۰ دقیقه ثبت‌نام کنید و به ناوگان اسنپ بپیوندید</p>
+        <p class="work-feature__text-body"> بدون نیاز به مراجعه‌ی حضوری، از طریق این صفحه، تمام مراحل ثبت‌نام را اینترنتی انجام دهید</p>
+        <a href="#" class="work-feature-cta__button">ثبت‌ نام رانندگان</a>
+    </div>
+
+    <!-- Video  -->
+
+    <div class="work-feature-video">
+        <video
+                controls
+                class="work-feature-video__player"
+                src="https://web-cdn.snapp.ir/snappir-marketing/images/homepage/jazbranandeh1.mp4"
+                poster="https://web-cdn.snapp.ir/snappir-marketing/images/homepage/jazbcovernew.webp"
+                controlslist="nodownload"
+                preload="none"
+        >
+            <track kind="captions" label="مزایای پیوستن به ناوگان اسنپ!">
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+    </div>
+
+    <!-- 6 Card -->
+
+    <div class="work-features-section__cards">
+
+        <!-- Card 1 -->
+        <div class="work-feature-card">
+            <div class="work-feature-card__image">
+                <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-income.png" alt="درآمد تضمینی" />
+            </div>
+            <h3 class="work-feature-card__title">درآمد تضمینی + پاداش‌های ماهانه و هفتگی</h3>
+            <p class="work-feature-card__body">
+                با فعالیت در ناوگان اسنپ، علاوه بر کسب درآمد مستمر و امکان تسویه در لحظه می‌توانید با شرکت در طرح‌های تشویقی مختلف، درآمد خود را افزایش دهید.
+            </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="work-feature-card">
+            <div class="work-feature-card__image">
+                <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-hour.png" alt="ساعت کاری دلخواه" />
+            </div>
+            <h3 class="work-feature-card__title">ساعت کاری دلخواه</h3>
+            <p class="work-feature-card__body">
+                فعالیت در ناوگان اسنپ محدودیت زمانی ندارد و می‌توانید فعالیت خود را در هر ساعت از شبانه‌روز و متناسب با برنامه‌ی زندگی‌تان شخصی‌سازی کنید.
+            </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="work-feature-card">
+            <div class="work-feature-card__image">
+                <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-benefits.png" alt="مزایا و خدمات باشگاه رانندگان" />
+            </div>
+            <h3 class="work-feature-card__title">مزایا و خدمات باشگاه رانندگان</h3>
+            <p class="work-feature-card__body">
+                در باشگاه رانندگان اسنپ می‌توانید از تسهیلات و خدمات متنوعی از جمله خدمات خودرویی، خدمات درمانی و همچنین خدمات رفاهی و آموزشی بهره‌مند شوید.
+            </p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="work-feature-card">
+            <div class="work-feature-card__image">
+                <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-carfix.png" alt="کار‌فیکس" />
+            </div>
+            <h3 class="work-feature-card__title">کار‌فیکس</h3>
+            <p class="work-feature-card__body">
+                باشگاه رانندگان اسنپ به‌تازگی سرویس جدید «اسنپ کارفیکس» را برای سهولت دسترسی کاربران راننده به انواع خدمات خودرویی راه‌اندازی کرده است.
+            </p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="work-feature-card">
+            <div class="work-feature-card__image">
+                <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/safety.svg" alt="امنیت سفر کاربران راننده در اسنپ" />
+            </div>
+            <h3 class="work-feature-card__title">امنیت سفر کاربران راننده در اسنپ</h3>
+            <p class="work-feature-card__body">
+                اسنپ با ارائه سرویس امنیت سفر در اپلیکیشن رانندگان و بهبود مستمر امکانات امنیتی این سرویس، تلاش می‌‌کند تجربه سفر با اسنپ برای کاربران راننده امن‌ و مطمئن باشد.
+            </p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="work-feature-card">
+            <div class="work-feature-card__image">
+                <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/support.svg" alt="پشتیبانی ۲۴ ساعته و سریع" />
+            </div>
+            <h3 class="work-feature-card__title">پشتیبانی ۲۴ ساعته و سریع</h3>
+            <p class="work-feature-card__body">
+                تیم پشتیبانی اسنپ در تمامی ساعت‌های شبانه‌روز پاسخگوی سوال‌ها و مشکلات کاربران راننده است. بخش «پشتیبانی» در اپلیکیشن رانندگان، سریع‌ترین راه ارتباطی شما با تیم پشتیبانی اسنپ است.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="footer-links">
+        <a href="#">فرصت‌های شغلی</a>
+        <a href="#">بلاگ</a>
+        <a href="#">شرایط و قوانین</a>
+        <a href="#">پنل سازمانی</a>
+        <a href="#">سوالات متداول</a>
+        <a href="#">باشگاه رانندگان</a>
+        <a href="#">ثبت نام راننده اسنپ</a>
+        <a href="#">کد تخفیف اسنپ</a>
+        <a href="#">درباره ما</a>
+        <a href="#">تماس با ما</a>
+    </div>
+    <div class="footer-socials">
+        <a href="#" aria-label="Twitter"><img src="https://web-cdn.snapp.ir/snapp-website/icons/social/Twitter.svg" alt="Twitter" /></a>
+        <a href="#" aria-label="Instagram"><img src="https://web-cdn.snapp.ir/snapp-website/icons/social/Instagram.svg" alt="Instagram" /></a>
+        <a href="#" aria-label="Youtube"><img src="https://web-cdn.snapp.ir/snapp-website/icons/social/Youtube.svg" alt="Youtube" /></a>
+        <a href="#" aria-label="LinkedIn"><img src="https://web-cdn.snapp.ir/snapp-website/icons/social/Linkedin.svg" alt="LinkedIn" /></a>
+        <a href="#" aria-label="Telegram"><img src="https://web-cdn.snapp.ir/snapp-website/icons/social/Telegram.svg" alt="Telegram" /></a>
+    </div>
+</footer>
+
+<script src="./js/app.js"></script>
+</body>
+</html>
